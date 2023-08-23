@@ -16,7 +16,7 @@
 
 body{
     font-family: sans-serif;
-    background-image: url(/images/background.png);
+    background-color: rgb(216, 181, 140);
 }
 
 header{
@@ -52,14 +52,15 @@ nav a:hover{
     display: flex;
 }
 
-.fondo .card img{
+.card2 img{
     height: 400px;
-    width: 1888px;
+    width: 100%;
 }
 
-.fondo .card h1{
+.card2 h1{
     display: flex;
     justify-content: center;
+    
 }
 
 .contenedor-footer {
