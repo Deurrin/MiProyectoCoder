@@ -1,0 +1,55 @@
+.fondo{
+    background-color: $color_fondo;
+    display: flex;
+}
+
+.card2 img{
+    height: 400px;
+    width: 100%;
+}
+
+.card2 h1{
+    display: flex;
+    justify-content: center;
+}
+
+.fondo .card-productos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contaneir{
+    width: 400px;
+    margin: 10px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgb(0,0,0,0.2);
+    cursor: default;   
+    justify-content: center;
+}
+
+.contaneir:hover{
+    box-shadow: 5px 5px 20px rgb(0,0,0,0.2);
+}
+
+.fondo .card-productos .contaneir img{
+    width: 100px;
+    height: 100px;
+}
+
+.fondo .card-productos .contaneir{
+    padding: 15px;
+    text-align: center;
+}
+
+.card-productos .contaneir h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.card-productos .contaneir p{
+    line-height: 1.5;
+    margin-bottom: 15px;
+}

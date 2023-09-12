@@ -1,0 +1,69 @@
+.contenedor-footer {
+    width: 100% !important;
+    background-color: $color_header_and_footer;
+}
+
+.contenedor-footer .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.contenedor-footer .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-footer .grupo-1 .box figure img{
+    width: 250px;
+}
+
+.contenedor-footer .grupo-1 .box h2{
+    color: $color_letra_footer;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+
+
+.contenedor-footer .grupo-1 .box p{
+    color: $color_letra_footer;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.contenedor-footer .grupo-1 .box2 a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: $color_iconos_footer;
+    margin-right: 10px;
+    background-color: $color_fondo_iconos_footer;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.contenedor-footer .grupo-1 .box2 a:hover{
+    color: $color_animacion_iconos_footer;
+}
+
+.contenedor-footer .grupo-2{
+    background-color: $color_fondo_debajo_footer;
+    padding: 15px 10px; 
+    text-align: center;
+    color: #efefef;
+    font-size: 20px;
+}
+
+.footer{
+    width: 100% !important;
+    height: 450px;
+}
